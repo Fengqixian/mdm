@@ -1,0 +1,6 @@
+com\clinbrain\bd\mdm\auth\auth\config\AuthorizationServerConfig.class
+com\clinbrain\bd\mdm\auth\config\WebSecurityConfigurer.class
+com\clinbrain\bd\mdm\auth\handler\PigAuthenticationFailureEvenHandler.class
+com\clinbrain\bd\mdm\auth\handler\PigAuthenticationSuccessEventHandler.class
+com\clinbrain\bd\mdm\auth\endpoint\PigTokenEndpoint.class
+com\clinbrain\bd\mdm\auth\PigAuthApplication.class

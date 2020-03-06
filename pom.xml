@@ -128,47 +128,47 @@
 
 	<modules>
 		<module>clinbrain-eureka</module>
-		<module>clinbrain-genid</module>
+		<!--<module>clinbrain-genid</module>-->
 		<module>clinbrain-config</module>
 		<module>clinbrain-gateway</module>
 		<module>clinbrain-auth</module>
 		<module>clinbrain-common</module>
-        <module>clinbrain-service</module>
+		<!--<module>clinbrain-service</module>-->
         <module>clinbrain-strategy</module>
-        <module>clinbrain-upms-api</module>
-        <module>clinbrain-metadata</module>
+		<module>clinbrain-upms-api</module>
+         <module>clinbrain-metadata</module>
 		<module>proxy</module>
-    </modules>
+     </modules>
 
-	<dependencyManagement>
-		<dependencies>
-			<dependency>
-				<groupId>io.netty</groupId>
-				<artifactId>netty-all</artifactId>
-				<version>${netty.version}</version>
-			</dependency>
-			<dependency>
-				<groupId>org.springframework.boot</groupId>
-				<artifactId>spring-boot-dependencies</artifactId>
-				<version>${spring-boot.version}</version>
-				<type>pom</type>
-				<scope>import</scope>
-			</dependency>
-			<dependency>
-				<groupId>io.spring.platform</groupId>
-				<artifactId>platform-bom</artifactId>
-				<version>${spring-platform.version}</version>
-				<type>pom</type>
-				<scope>import</scope>
-			</dependency>
-			<dependency>
-				<groupId>org.springframework.cloud</groupId>
-				<artifactId>spring-cloud-dependencies</artifactId>
-				<version>${spring-cloud.version}</version>
-				<type>pom</type>
-				<scope>import</scope>
-			</dependency>
-			<!--稳定版本，替代spring security bom内置-->
+     <dependencyManagement>
+         <dependencies>
+             <dependency>
+                 <groupId>io.netty</groupId>
+                 <artifactId>netty-all</artifactId>
+                 <version>${netty.version}</version>
+             </dependency>
+             <dependency>
+                 <groupId>org.springframework.boot</groupId>
+                 <artifactId>spring-boot-dependencies</artifactId>
+                 <version>${spring-boot.version}</version>
+                 <type>pom</type>
+                 <scope>import</scope>
+             </dependency>
+             <dependency>
+                 <groupId>io.spring.platform</groupId>
+                 <artifactId>platform-bom</artifactId>
+                 <version>${spring-platform.version}</version>
+                 <type>pom</type>
+                 <scope>import</scope>
+             </dependency>
+             <dependency>
+                 <groupId>org.springframework.cloud</groupId>
+                 <artifactId>spring-cloud-dependencies</artifactId>
+                 <version>${spring-cloud.version}</version>
+                 <type>pom</type>
+                 <scope>import</scope>
+             </dependency>
+             <!--稳定版本，替代spring security bom内置-->
 			<dependency>
 				<groupId>org.springframework.security.oauth</groupId>
 				<artifactId>spring-security-oauth2</artifactId>
@@ -298,7 +298,7 @@
 			</snapshots>
 		</repository>
 		<!--clinbrain 私服-->
-		<repository>
+		<!--<repository>
 			<id>clinbrain</id>
 			<name>clinbrain</name>
 			<url>http://192.168.0.111:8099/repository/3rd_part</url>
@@ -308,6 +308,14 @@
 			<snapshots>
 				<enabled>true</enabled>
 			</snapshots>
+		</repository>-->
+		<!--<repository>
+			<id>rdc-releases</id>
+			<url>https://repo.rdc.aliyun.com/repository/125242-release-dGE1gU/</url>
+		</repository>-->
+		<repository>
+			<id>rdc-snapshots</id>
+			<url>https://repo.rdc.aliyun.com/repository/125242-snapshot-ysPIV5/</url>
 		</repository>
 		<!--阿里云代理Spring 官方仓库-->
 		<repository>

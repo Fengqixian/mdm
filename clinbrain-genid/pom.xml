@@ -85,7 +85,8 @@
 		<dependency>
 			<groupId>com.clinbrain</groupId>
 			<artifactId>MySql</artifactId>
-			<version>1.0-SNAPSHOT</version>
+			<version>1.0-20200306.015830-1</version>
+			<classifier>test</classifier>
 		</dependency>
 	</dependencies>
 

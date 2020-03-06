@@ -1,0 +1,6 @@
+com\clinbrain\bd\mdm\common\log\event\SysLogEvent.class
+com\clinbrain\bd\mdm\common\log\aspect\SysLogAspect.class
+com\clinbrain\bd\mdm\common\log\event\SysLogListener.class
+com\clinbrain\bd\mdm\common\log\util\SysLogUtils.class
+com\clinbrain\bd\mdm\common\log\LogAutoConfiguration.class
+com\clinbrain\bd\mdm\common\log\annotation\SysLog.class

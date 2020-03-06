@@ -1,0 +1,45 @@
+{
+  "groups": [
+    {
+      "name": "netty.clients",
+      "type": "com.clinbrain.bd.proxy.config.NettyProxyConfig",
+      "sourceType": "com.clinbrain.bd.proxy.config.NettyProxyConfig"
+    },
+    {
+      "name": "server",
+      "type": "com.clinbrain.bd.proxy.config.NettyServerConfig",
+      "sourceType": "com.clinbrain.bd.proxy.config.NettyServerConfig"
+    }
+  ],
+  "properties": [
+    {
+      "name": "netty.clients.databases",
+      "type": "java.util.Map<java.lang.String,com.clinbrain.bd.proxy.config.NettyClientConfig>",
+      "sourceType": "com.clinbrain.bd.proxy.config.NettyProxyConfig"
+    },
+    {
+      "name": "netty.clients.type",
+      "type": "com.clinbrain.bd.proxy.consts.DabaseTpye",
+      "sourceType": "com.clinbrain.bd.proxy.config.NettyProxyConfig"
+    },
+    {
+      "name": "server.max-connection",
+      "type": "java.lang.Integer",
+      "sourceType": "com.clinbrain.bd.proxy.config.NettyServerConfig",
+      "defaultValue": 0
+    },
+    {
+      "name": "server.max-watting",
+      "type": "java.lang.Long",
+      "sourceType": "com.clinbrain.bd.proxy.config.NettyServerConfig",
+      "defaultValue": 0
+    },
+    {
+      "name": "server.port",
+      "type": "java.lang.Integer",
+      "sourceType": "com.clinbrain.bd.proxy.config.NettyServerConfig",
+      "defaultValue": 0
+    }
+  ],
+  "hints": []
+}

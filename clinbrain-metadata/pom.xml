@@ -70,17 +70,20 @@
         <dependency>
             <groupId>com.clinbrain</groupId>
             <artifactId>MySql</artifactId>
-            <version>1.0-SNAPSHOT</version>
+            <version>1.0-20200306.015830-1</version>
+            <classifier>test</classifier>
         </dependency>
         <dependency>
             <groupId>com.clinbrain</groupId>
             <artifactId>DataXJson</artifactId>
-            <version>1.0-SNAPSHOT</version>
+            <version>1.0-20200306.015901-1</version>
+            <classifier>test</classifier>
         </dependency>
         <dependency>
             <groupId>com.clinbrain</groupId>
             <artifactId>common</artifactId>
-            <version>1.0-SNAPSHOT</version>
+            <version>1.0-20200306.015926-1</version>
+            <classifier>test</classifier>
         </dependency>
         <!-- easypoi简单导出所需要的jar包 start -->
         <dependency>
@@ -129,11 +132,11 @@
             <artifactId>sqljdbc4</artifactId>
             <version>4.0</version>
         </dependency>
-        <dependency>
+        <!--<dependency>
             <groupId>com.clinbrain.greenplum</groupId>
             <artifactId>greenplum-jdbc</artifactId>
             <version>5.1.4</version>
-        </dependency>
+        </dependency>-->
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
